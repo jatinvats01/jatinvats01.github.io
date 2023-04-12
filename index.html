@@ -5,7 +5,7 @@
 <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Simple HTML HomePage</title>
+  <title> DATABASE MANAGEMENT</title>
   <style>
    /* @import url('https://fonts.googleapis.com/css2?family=Sriracha&display=swap');*/
 
@@ -13,7 +13,7 @@
       margin: 0;
       box-sizing: border-box;
     }
-
+    
     /* CSS for header */
     .header {
       display: flex;
@@ -27,16 +27,16 @@
       font-family: 'Sriracha', cursive;
       color: #000;
       text-decoration: none;
-      margin-left: 30px;
+      margin-left: 30px;                             
     }
 
    
     a:hover{
-      background-color: rgb(99, 174, 42);
+      background-color: rgb(255, 128, 0);
     }
 
     .nav-items {
- background-color: #2d5488;
+ background-color: #091d38;
     display: flex;
   justify-content: space-around;
   align-items: center;
@@ -44,7 +44,7 @@
 }
 .nav-items a {
   text-decoration: none;
-  color: white;
+  color: rgb(132, 255, 0);
   padding: 35px 20px;
   font-size: 37px;
   font-style: normal;
@@ -79,61 +79,18 @@
       margin: 20px 0;
     }
 
-    .achievements {
-      display: flex;
-      justify-content: space-around;
-      align-items: center;
-      padding: 40px 80px;
-    }
-
-    .achievements .work {
-      display: flex;
-      flex-direction: column;
-      justify-content: center;
-      align-items: center;
-      padding: 0 40px;
-    }
-
-    .achievements .work i {
-      width: fit-content;
-      font-size: 50px;
-      color: #333333;
-      border-radius: 50%;
-      border: 2px solid #333333;
-      padding: 12px;
-    }
-
-    .achievements .work .work-heading {
-      font-size: 20px;
-      color: #333333;
-      text-transform: uppercase;
-      margin: 10px 0;
-    }
-
-    .achievements .work .work-text {
-      font-size: 15px;
-      color: #585858;
-      margin: 10px 0;
-    }
-
     .about-me {
+      background-color: #e4d9d9;
       display: flex;
       justify-content: center;
       align-items: center;
       padding: 40px 80px;
-      border-top: 2px solid #eeeeee;
-    }
-
-    .about-me img {
-      width: 500px;
-      max-width: 100%;
-      height: auto;
-      border-radius: 10px;
+      border-top: 2px solid #4e4545;
     }
 
     .about-me-text h2 {
       font-size: 30px;
-      color: #333333;
+      color: #338279;
       text-transform: uppercase;
       margin: 0;
     }
@@ -149,7 +106,7 @@
       display:block;
       justify-content: space-between;
       align-items: center;
-      background-color: #302f49;
+      background-color: #171618;
       padding: 40px 80px;
     }
 
@@ -173,7 +130,7 @@
     }
 
     .bottom-links .links span {
-      font-size: 20px;
+      font-size: 24px;
       color: #fff;
       text-transform: uppercase;
       margin: 10px 0;
@@ -190,37 +147,24 @@
 <body>
   <header class="header">
         <nav class="nav-items">
-      <a href="index.html">Home</a>
-      <a href="dbms.html">dbms</a>
-      <a href="sql.html">sql</a>
-      <a href="plsql.html">plsql</a>
+      <a href="index.html">HOME</a>
+      <a href="dbms.html">DBMS</a>
+      <a href="sql.html">SQL</a>
+      <a href="plsql.html">PLSQL</a>
     </nav>
   </header>
   <main>
     <div class="intro">
       <h1>Database Management System</h1>
     </div>
-    <div class="achievements">
-      <div class="work">
-        <i class="fas fa-atom"></i>
-        <p class="work-heading"><a href="sql.html">SQL</a></p>
-        <p class="work-text"> structured query language (SQL) is a programming language for storing and processing information in a relational database. data can be manipulated using sql. </p>
-      </div>
-      <div class="work">
-        <i class="fas fa-skiing"></i>
-        <p class="work-heading"><a href="plsql.html">PLSQL</a></p>
-        <p class="work-text">procedural structured query language(PLSQL) is a programming language that allows you to use procedural statements along with sql statements.</p>
-      </div>
-      
-    </div>
     <div class="about-me">
       <div class="about-me-text">
-        <h2>About website</h2>
-        <p>This website has been created to provide knowledge about the languages like sql and plsql.these are the languages that are use to manipulate the databases. there are several operation that can be performed on the databases and these operations are done with the help of these languases.</p>
+       <center> <h1>About website</h1></center>
+        <H4>This website has been created to provide knowledge about the languages like sql and plsql.these are the languages that are use to manipulate the databases. there are several operation that can be performed on the databases and these operations are done with the help of these languases.</H4>
      <br>
-     <center> Submitted by: Jatin Vats (7061/21)<br>
+     <center> <b>Submitted by: Jatin Vats (7061/21)<br>
      Submitted to: Mr Chetan Kumar Gupta<br>
-     BCA-IInd</center><br>
+     BCA-IInd</b></center><br>
       </div>
     </div>
   </main>
